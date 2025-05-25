@@ -4,10 +4,12 @@
     <title>WelcomePage</title>
 </head>
 <body>
-    
-    <div>
+    <div class="container">
+      <h1>
        Welcome you ${Username}
+    </h1>
+    <a href="list-todos">Manage</a> your todos
     </div>
-    <div>Your Password: ${Pass}</div>
+    
 </body>
 </html>
